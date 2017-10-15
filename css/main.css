@@ -1,6 +1,7 @@
 html {
   background-color: #dbd6cf;
   box-sizing: border-box;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -10,12 +11,13 @@ html {
 header {
   background-color: #79756f;
   border: 3px solid #595652;
-  margin: .3em;
-  padding: .6em .5em .75em;
+  margin: .1em;
+  padding: 0;
 }
 
 body {
   font-family: sans-serif;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -28,6 +30,7 @@ body {
 
 .nav li {
   display: inline-block;
+  height: 3em;
 }
 
 a {
@@ -49,7 +52,7 @@ a:hover {
 
 h1 {
   text-align: center;
-  font-family: Bevan;
+  font-family: Bevan, cursive;
   margin: .3em;
   box-sizing: border-box;
   color: #fff;
